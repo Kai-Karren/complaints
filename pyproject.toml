@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "dataclasses-json"]
+build-backend = "hatchling.build"
+
+[project]
+name = "complaints"
+version = "0.0.1"
+authors = [
+  { name="Kai Karren", email="mail@kaikarren.de" },
+]
+description = "Library that allows to create and manage complaints"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Kai-Karren/complaints"
+"Bug Tracker" = "https://github.com/Kai-Karren/complaints/issues"
